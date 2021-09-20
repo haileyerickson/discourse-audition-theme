@@ -1,4 +1,7 @@
 div.poll {
-  margin: 10em 0;
-  border: 1px solid var(--primary-low);
+  li[data-poll-option-id] {
+      color: red;
+      padding: 0.5em 0;
+      word-break: break-word;
+    }
 }
