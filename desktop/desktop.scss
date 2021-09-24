@@ -1,9 +1,10 @@
 div.poll {
+  display: block;
   
   .poll-info {
-    // min-width: 150px;
-    // width: 100%;
-    // display: table-cell;
+    min-width: 150px;
+    width: 100%;
+    display: block;
 
     .info-number {
       font-size: 1em;
@@ -19,13 +20,13 @@ div.poll {
   }
 
   .poll-container {
-    // display: table-cell;
-    // width: 100%;
-    // border-right: 1px solid var(--primary-low);
+    display: block;
+    width: 100%;
+    border-right: none;
   }
 
   .poll-title {
-    // border-bottom: 1px solid var(--primary-low);
+    border-bottom: none;
     margin: 0 1em 1em 1em;
     padding: 0.5em 0;
     font-size: 2em;
@@ -35,7 +36,7 @@ div.poll {
   }
 
   .poll-buttons {
-    // border-top: 1px solid var(--primary-low);
+    border-top: none;
     padding: 1em;
     display: flex;
     flex-direction: row;
