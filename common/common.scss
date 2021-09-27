@@ -1,3 +1,18 @@
+.banner {
+    height: 150px; 
+    width: 100%; 
+    
+    background: linear-gradient(#803af7, #500cc4);
+    color: #ffffff;
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    
+    margin-bottom: 1em; 
+    text-align: center
+  }
+
 div.poll {
   // border: 1px solid var(--primary-low);
     margin: 1em 0;
